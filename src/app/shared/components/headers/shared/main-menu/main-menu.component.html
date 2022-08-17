@@ -1,0 +1,137 @@
+<nav class="main-nav">
+    <ul class="menu sf-arrows">
+        <li class="megamenu-container" [class.active]="current=='/'">
+            <a routerLink="/">HOME</a>
+        </li>
+
+        <li [class.active]="current.includes('/about')">
+          <a routerLink="/pages/about">ABOUT</a>
+        </li>
+
+        <li [class.active]="current.includes('/services')">
+          <a routerLink="/pages/services">SERVICES</a>
+        </li>
+
+        <li [class.active]="current.includes('/shop')">
+            <a routerLink="/shop/sidebar/4cols" class="">SHOP</a>
+        </li>
+        <!-- <li [class.active]="current.includes('/product/')">
+            <a routerLink="/product/default/dark-yellow-lace-cut-out-swing-dress" class="sf-with-ul">Product</a>
+
+            <div class="megamenu megamenu-sm">
+                <div class="row no-gutters">
+                    <div class="col-md-6">
+                        <div class="menu-col">
+                            <div class="menu-title">Product Details</div>
+
+                            <ul>
+                                <li [class.active]="current.includes('product/default')">
+                                    <a routerLink="/product/default/dark-yellow-lace-cut-out-swing-dress">Default</a>
+                                </li>
+                                <li [class.active]="current.includes('product/centered')">
+                                    <a
+                                        routerLink="/product/centered/beige-ring-handle-circle-cross-body-bag">Centered</a>
+                                </li>
+                                <li [class.active]="current.includes('product/extended')">
+                                    <a routerLink="/product/extended/yellow-tie-strap-block-heel-sandals">
+                                        <span>
+                                            Extended Info
+                                            <span class="tip tip-new">New</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li [class.active]="current.includes('product/gallery')">
+                                    <a routerLink="/product/gallery/beige-metal-hoop-tote-bag">Gallery</a>
+                                </li>
+                                <li [class.active]="current.includes('product/sticky')">
+                                    <a routerLink="/product/sticky/brown-faux-fur-longline-coat">Sticky Info</a>
+                                </li>
+                                <li [class.active]="current.includes('product/sidebar')">
+                                    <a routerLink="/product/sidebar/beige-v-neck-button-cardigan">Boxed With Sidebar</a>
+                                </li>
+                                <li [class.active]="current.includes('product/fullwidth')">
+                                    <a routerLink="/product/fullwidth/black-faux-leather-chain-trim-sandals">Full
+                                        Width</a>
+                                </li>
+                                <li [class.active]="current.includes('product/masonry')">
+                                    <a routerLink="/product/masonry/black-denim-dungaree-dress">Masonry Sticky Info</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="banner banner-overlay">
+                            <a routerLink="/shop/sidebar/list">
+                                <img src="assets/images/menu/banner-2.jpg" alt="Banner" width="218" height="310" />
+
+                                <div class="banner-content banner-content-bottom">
+                                    <div class="banner-title text-white">
+                                        New Trends
+                                        <br />
+                                        <span>
+                                            <strong>spring 2021</strong>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li> -->
+
+        <li [class.active]="current.includes('/blog/')">
+            <a routerLink="/blog/classic">BLOG</a>
+        </li>
+        <!-- <li [class.active]="current.includes('/elements')">
+            <a routerLink="/elements" class="sf-with-ul">Elements</a>
+
+            <ul>
+                <li [class.active]="current.includes('elements/products')">
+                    <a routerLink="/elements/products">Products</a>
+                </li>
+                <li [class.active]="current.includes('elements/typography')">
+                    <a routerLink="/elements/typography">Typography</a>
+                </li>
+                <li [class.active]="current.includes('elements/titles')">
+                    <a routerLink="/elements/titles">Titles</a>
+                </li>
+                <li [class.active]="current.includes('elements/banners')">
+                    <a routerLink="/elements/banners">Banners</a>
+                </li>
+                <li [class.active]="current.includes('elements/categories')">
+                    <a routerLink="/elements/categories">Product Category</a>
+                </li>
+                <li [class.active]="current.includes('elements/video-banners')">
+                    <a routerLink="/elements/video-banners">Video Banners</a>
+                </li>
+                <li [class.active]="current.includes('elements/buttons')">
+                    <a routerLink="/elements/buttons">Buttons</a>
+                </li>
+                <li [class.active]="current.includes('elements/accordions')">
+                    <a routerLink="/elements/accordions">Accordions</a>
+                </li>
+                <li [class.active]="current.includes('elements/tabs')">
+                    <a routerLink="/elements/tabs">Tabs</a>
+                </li>
+                <li [class.active]="current.includes('elements/testimonials')">
+                    <a routerLink="/elements/testimonials">Testimonials</a>
+                </li>
+                <li [class.active]="current.includes('elements/blog-posts')">
+                    <a routerLink="/elements/blog-posts">Blog Posts</a>
+                </li>
+                <li [class.active]="current.includes('elements/cta')">
+                    <a routerLink="/elements/cta">Call to Action</a>
+                </li>
+                <li [class.active]="current.includes('elements/icon-boxes')">
+                    <a routerLink="/elements/icon-boxes">Icon Boxes</a>
+                </li>
+            </ul>
+        </li> -->
+
+        <li [class.active]="current.includes('/contact')">
+          <a routerLink="/pages/contact">CONTACT</a>
+        </li>
+    </ul>
+</nav>
