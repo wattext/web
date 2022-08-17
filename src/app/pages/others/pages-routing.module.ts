@@ -12,11 +12,11 @@ import { ContactTwoPageComponent } from './contact-two/contact-two.component';
 const routes: Routes = [
     {
         path: '',
-        redirectTo: 'about',
+        component: AboutOneComponent,
         pathMatch: 'full'
     },
     {
-        path: 'about',
+        path: 'us',
         component: AboutOneComponent
     },
     {
@@ -39,6 +39,11 @@ const routes: Routes = [
         path: 'contact',
         component: ContactOnePageComponent
     },
+    {
+      path: 'services',
+      component: FaqsPageComponent,
+      pathMatch: 'full'
+  },
     {
         path: 'contact-2',
         component: ContactTwoPageComponent

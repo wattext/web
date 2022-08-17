@@ -13,12 +13,11 @@ import { SingleSidebarPageComponent } from './single-sidebar/single-sidebar.comp
 
 const routes: Routes = [
 	{
-		path: '',
-		redirectTo: 'classic',
-		pathMatch: 'full'
-	},
-	{
 		path: 'classic',
+		component: ClassicPageComponent
+	},
+  {
+		path: '',
 		component: ClassicPageComponent
 	},
 	{

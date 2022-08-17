@@ -15,13 +15,13 @@ export class ShopListOneComponent implements OnInit {
 	grid = {
 		"2cols": "col-6",
 		"3cols": "col-6 col-md-4 col-lg-4",
-		"default": "col-6 col-md-4 col-lg-4 col-xl-3"
+		"4cols": "col-6 col-md-4 col-lg-4 col-xl-3"
 	};
 	fakeArray = {
 		"list": [1, 2, 3, 4, 5],
 		"2cols": [1, 2, 3, 4, 5, 6],
 		"3cols": [1, 2, 3, 4, 5, 6, 7, 8, 9],
-		"default": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+		"4cols": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 	}
 
 	constructor() {

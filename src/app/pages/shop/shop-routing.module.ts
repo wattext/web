@@ -24,7 +24,7 @@ const routes: Routes = [
 	{
 		path: '',
 		pathMatch: 'full',
-		redirectTo: 'default'
+		redirectTo: 'sidebar/4cols'
 	},
   {
 		path: 'default',

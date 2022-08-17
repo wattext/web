@@ -13,7 +13,7 @@ import { UtilsService } from 'src/app/shared/services/utils.service';
 export class SidebarPageComponent implements OnInit {
 	products = [];
 	perPage = 12;
-	type = 'default';
+	type = 'list';
 	totalCount = 0;
 	orderBy = 'default';
 	pageTitle = 'List';
@@ -32,7 +32,7 @@ export class SidebarPageComponent implements OnInit {
 				this.pageTitle = 'Grid 2 Columns';
 			} else if (this.type == '3cols') {
 				this.pageTitle = 'Grid 3 Columns';
-			} else if (this.type == 'default') {
+			} else if (this.type == '4cols') {
 				this.pageTitle = 'Grid 4 Columns';
 			}
 		});
